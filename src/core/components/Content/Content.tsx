@@ -1,7 +1,7 @@
-export function Content(){
+export function Content({children}: any){
     return (
         <div className="container-fluid p-4">
-            <h2>Contendor</h2>
+            {children}
         </div>
     );
 }

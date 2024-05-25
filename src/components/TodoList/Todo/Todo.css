@@ -1,0 +1,9 @@
+.card .btn {
+    /* display: none; */
+    visibility:  hidden;
+}
+
+.card:hover  .btn{
+    /* display: block; */
+    visibility: visible;
+}
