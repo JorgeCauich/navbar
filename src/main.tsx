@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import { TodoList } from './components/TodoList/TodoList.tsx';
 import { NotFound } from './core/components/NotFound/NotFound.tsx';
+import Calculator from './components/Calculator/Calculator.tsx';
 
 const router = createBrowserRouter([
   {
@@ -14,6 +15,10 @@ const router = createBrowserRouter([
       {
         index: true,
         element: <TodoList />,
+      },
+      {
+        path: "calculadora",
+        element: <Calculator />
       }
     ]
   },
